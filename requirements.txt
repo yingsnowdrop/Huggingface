@@ -1,0 +1,10 @@
+# 轻量 CPU 环境
+transformers>=4.44
+huggingface_hub>=0.24
+datasets>=2.20
+accelerate>=0.33
+torch --index-url https://download.pytorch.org/whl/cpu
+sentencepiece
+safetensors
+gradio>=4.0
+ipykernel
